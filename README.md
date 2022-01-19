@@ -10,9 +10,12 @@ Prereq's
 
 5. Take that API key, add these following variables in bash/zsh.
 
+```
  export JENKINS_API_KEY="<API Key From Jenkins>"
  export USERNAME="<username>"
+ export JENKINS_URL="<url>"
  alias platter="python3 /usr/local/bin/platter.py"
+ ```
 
  source your bash/zsh before running the script
 
